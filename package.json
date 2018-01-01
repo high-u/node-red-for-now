@@ -1,0 +1,13 @@
+{
+  "name": "my-project",
+  "version": "0.0.1",
+  "description": "Node-RED for now.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-red": "^0.17.5"
+  }
+}
