@@ -2,9 +2,8 @@
   "name": "node-red-2018",
   "alias": "node-red-2018",
   "env": {
-    "DATABASE_NAME": "test",
-    "DATABASE_USER": "hoge",
-    "DATABASE_PW": "hoge123"
+    "NODE_RED_USERNAME": "@node-red-username",
+    "NODE_RED_PASSWORD": "@node-red-password"
   },
   "engines": {
     "node": "6.9.4"

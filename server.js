@@ -19,14 +19,14 @@ var settings = {
   functionGlobalContext: {    // enables global context
     // os:require('os'),
   },
-//  adminAuth: {
-//    type: "credentials",
-//    users: [{
-//      username: process.env.NODE_RED_USER,
-//      password: process.env.NODE_RED_PW,
-//      permissions: "*"
-//    }]
-//  },
+  adminAuth: {
+    type: "credentials",
+    users: [{
+      username: process.env.NODE_RED_USERNAME,
+      password: process.env.NODE_RED_PASSWORD,
+      permissions: "*"
+    }]
+  },
   debugMaxLength: 1000,
   debugUseColors: true,
   flowFile: 'flows.json',
