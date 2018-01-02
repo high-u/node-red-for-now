@@ -1,8 +1,11 @@
 # node-red-for-now
 
+## install now-cli
+
+- Run `npm install -g now`
+
 ## Usage
 
-1. Run `npm install -g now`
 1. Run `git clone https://github.com/high-u/node-red-for-now.git`
 1. Run `cd ./node-red-for-now`
 1. Run `now secrets add node-red-username 'admin'`
