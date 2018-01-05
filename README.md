@@ -1,6 +1,6 @@
 # node-red-for-now
 
-## install now-cli
+## Install now-cli
 
 - Run `npm install -g now`
 
@@ -10,6 +10,7 @@
 - Run `cd ./node-red-for-now`
 - Run `now secrets add node-red-username 'admin'`
 - Run `now secrets add node-red-password '$2a$08$zZWtXTja0fB1pzD4sHCMyOCMYz2Z6dNbM6tl8sJogENOMcxWV9DN.'`
+  - [Make Password](https://nodered.org/docs/security#generating-the-password-hash)
 - Run `now secrets add aws-access-key-id 'AKXXXXXXXXXXXXXXXX6A'`
   - Your AWS "AWS Access Key Id"
 - Run `now secrets add aws-secret-access-key 'YZXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXCi'`
