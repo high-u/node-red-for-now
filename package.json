@@ -1,13 +1,19 @@
 {
   "name": "my-project",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Node-RED for now.",
-  "main": "server.js",
+  "main": "red.js",
   "scripts": {
-    "start": "node server"
+    "start": "npm-run-all -s start:*",
+    "start:setup": "node ./setup.js",
+    "start:nodered": "node ./node_modules/node-red/red.js --settings ./settings.js"
   },
   "dependencies": {
-    "express": "^4.16.2",
-    "node-red": "^0.17.5"
+    "aws-sdk": "^2.176.0",
+    "node-red": "^0.17.5",
+    "node-red-contrib-storage-s3": "0.0.4"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.2"
   }
 }
