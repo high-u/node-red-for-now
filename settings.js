@@ -20,7 +20,7 @@ module.exports = {
   debugMaxLength: 1000,
   debugUseColors: true,
   flowFile: 'flows.json',
-  userDir: process.env['HOME'],
+  userDir: process.env.HOME,
   ui: { path: "ui" },
   logging: {
     console: {
