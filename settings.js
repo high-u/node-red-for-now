@@ -1,6 +1,6 @@
 module.exports = {
   awsRegion: 'us-east-1',
-  awsS3Appname: 'nodered20170105',
+  awsS3Appname: 'nodered2018',
   storageModule: require('node-red-contrib-storage-s3'),
 
   httpAdminRoot: "/",
