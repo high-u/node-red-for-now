@@ -7,7 +7,11 @@
     "AWS_ACCESS_KEY_ID": "@aws-access-key-id",
     "AWS_SECRET_ACCESS_KEY": "@aws-secret-access-key"
   },
-  "files": [],
+  "files": [
+    "setup.js",
+    "settings.js",
+    "README.md"
+  ],
   "type": "npm",
   "forwardNpm": false,
   "engines": {
