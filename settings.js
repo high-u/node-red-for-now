@@ -6,7 +6,7 @@ module.exports = {
   httpAdminRoot: "/",
   httpNodeRoot: "/api/",
   uiPort: 3000,
-  functionGlobalContext: {    // enables global context
+  functionGlobalContext: {
     // os:require('os'),
   },
   adminAuth: {
