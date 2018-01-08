@@ -3,28 +3,28 @@ module.exports = {
   awsS3Appname: 'nodered2018',
   storageModule: require('node-red-contrib-storage-s3'),
 
-  httpAdminRoot: "/",
-  httpNodeRoot: "/api/",
+  httpAdminRoot: '/',
+  httpNodeRoot: '/api/',
   uiPort: 3000,
   functionGlobalContext: {
     // os:require('os'),
   },
   adminAuth: {
-    type: "credentials",
+    type: 'credentials',
     users: [{
       username: process.env.NODE_RED_USERNAME,
       password: process.env.NODE_RED_PASSWORD,
-      permissions: "*"
+      permissions: '*'
     }]
   },
   debugMaxLength: 1000,
   debugUseColors: true,
   flowFile: 'flows.json',
   userDir: process.env.HOME,
-  ui: { path: "ui" },
+  ui: { path: 'ui' },
   logging: {
     console: {
-      level: "trace"
+      level: 'trace'
     }
   }
 }
